@@ -21,7 +21,7 @@ function setActiveStyle(color) {
     if (color === style.getAttribute("title")) {
       style.removeAttribute("disabled");
     } else {
-      style.setAttribute("disabled");
+      style.setAttribute("disabled", "true");
     }
   });
 }
